@@ -1,0 +1,52 @@
+/* Hide Streamlit Branding */
+MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {visibility: hidden;}
+
+/* not needed anymore since Streamlit now has a 'horizontal' parameter for radio buttons */
+/* div.row-widget.stRadio > div{flex-direction:row;} */
+
+/* not needed anymore with the color scheme I'm currently using, but still servers as an example */
+/* .css-1qcq6jo {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.25rem;
+    margin: 0px;
+    line-height: 1.6;
+    color: #ffffff;
+    width: auto;
+    user-select: none;
+    background-color: #ca001b;
+    border: 1px solid #21212133;
+} 
+  .css-1qcq6jo:hover {
+    background-color: #ffffff;
+    color: #ca001b;
+    border: 1px solid #ca001b;
+  }
+  .css-1qcq6jo:focus {
+    box-shadow: #ca001b80 0px 0px 0px 0.2rem;
+    outline: none;
+  }
+  .css-1qcq6jo:focus:not(:active) {
+    border-color: #ca001b;
+    color: #ffffff;
+  }
+  .css-1qcq6jo:focus:not(:active):hover {
+    background-color: #ffffff;
+    color: #ca001b;
+    border-color: #ca001b;
+  } */
+  /* [data-baseweb="notification"] {
+    background-color: #88c0d0;
+    color: #2e3440;
+  }
+  
+  [role="alert"] {
+    background-color: #bf616a;
+  } */

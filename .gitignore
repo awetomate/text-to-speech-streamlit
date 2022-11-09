@@ -127,3 +127,8 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# don't commit any generated audio files in media folder
+/media/audio.*
+# don't commit the Google credential file
+/static/credentials.json
