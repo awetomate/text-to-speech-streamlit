@@ -5,14 +5,14 @@ Uses streamlit to create web app to easily interact with Google's API.
 """
 
 import json
-import streamlit as st
+from pathlib import Path
+
 import pandas as pd
+import streamlit as st
 from google.cloud import texttospeech
 from google.oauth2 import service_account
-from pathlib import Path
 from langcodes import *
 from PIL import Image
-
 
 BASE_DIR = Path(__file__).resolve().parent
 STATIC_DIR = BASE_DIR.joinpath("static")
